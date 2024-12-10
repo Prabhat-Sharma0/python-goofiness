@@ -3,8 +3,8 @@ import pandas as pd
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName("Batch-Processing").getOrCreate()
-alpha_api_key = "6HI8M1U2Z38LVPAX"
-twelve_api_key = "997469e88bd547e68a7eafc7f66208b3"
+alpha_api_key = "______"
+twelve_api_key = "______"
 
 
 def load_data_from_twelve(symbol, api_key, interval="1min"):
