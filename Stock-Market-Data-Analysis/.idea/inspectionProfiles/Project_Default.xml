@@ -1,0 +1,64 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="cron-descriptor" />
+            <item index="1" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="2" class="java.lang.String" itemvalue="" />
+            <item index="3" class="java.lang.String" itemvalue="airflow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="FirstSparkProject" />
+          <option value="FirstSparkProject" />
+          <option value="FirstSparkProject" />
+          <option value="FirstSparkProject" />
+          <option value="FirstSparkProject" />
+          <option value="FirstSparkProject" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="null:apache-airflow:2.7.0" />
+          <option value="null:Flask-Caching:2.0.2" />
+          <option value="null:Jinja2:3.1.2" />
+          <option value="null:urllib3:2.0.4" />
+          <option value="null:Werkzeug:2.2.3" />
+          <option value="null:cryptography:41.0.3" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
